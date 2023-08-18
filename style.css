@@ -1,0 +1,149 @@
+/* * {
+    border: 2px solid pink
+} */
+
+body {
+  background-color:azure;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.outer-container {
+  width: 1000px;
+  margin: auto;
+}
+
+.header-logo {
+    color: #f9faf8;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.inner-container {
+    padding: 0 100px 0 100px;
+    background-color: #1f2937;
+}
+
+nav, ul {
+    display: flex; 
+    align-items: center;
+}
+
+ul {
+    margin-left: auto;
+    list-style-type: none;
+    gap: 25px; 
+}
+
+.nav-buttons a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.nav-buttons a:hover {
+    text-decoration: underline;
+    color: #f9faf8;
+}
+
+/* HERO SECTION */
+
+.hero-section {
+    display: flex;
+    color: #f9faf8;
+    gap: 45px;
+    padding: 100px 0px;
+}
+
+.btn-primary {
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 100px;
+    padding: .5em;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor:pointer;
+    transition: background-color .1s, transform .3s;
+
+}
+
+.btn-primary:hover {
+    background-color: #2c65c2;
+    transform: scale(1.05);
+}
+
+.hero-header {
+    font-weight: bolder;
+    margin: 0px;
+}
+
+.hero-section-column-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.hero-section-column-2 {
+    display: flex;
+}
+
+/* END HERO SECTION */
+
+/* RANDOM INFO SECTION */
+
+.random-info-section {
+    background-color: #f9faf8;
+    margin: 0px; 
+    padding-bottom: 50px;
+}
+
+.random-h2 {
+    margin-top:0px;
+    padding: 1em 100px 15px 100px;
+    text-align: center;
+}
+
+.four-column-row {
+    display: flex;
+    margin: 0px 150px 0 150px;
+    gap: 25px;
+}
+
+.rounded-square {
+    border: 2px solid blue;
+    border-radius: 10px;
+    width: 75px;
+    height: 75px;
+    padding: 10px;
+    margin: auto;
+}
+
+.rounded-square + p {
+    text-align: center;
+    display: flex; 
+}
+
+/* RANDOM INFO SECTION ENDS */
+
+/* QUOTE SECTION */
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 4em;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+blockquote {
+    margin: 0;
+}
+
+.quote-author {
+    font-size: small;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
